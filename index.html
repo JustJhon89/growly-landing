@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Growly — Modern Business Landing</title>
+  <meta name="description" content="A fast, conversion‑focused landing page template built with Tailwind CSS." />
+  <meta name="theme-color" content="#0ea5e9" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    * { font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; }
+    .container-narrow { max-width: 1120px; }
+  </style>
+</head>
+<body class="bg-gradient-to-b from-sky-50 to-white text-slate-800 antialiased">
+  <!-- Nav -->
+  <header class="sticky top-0 z-50 backdrop-blur bg-white/70 border-b border-slate-200/60">
+    <div class="mx-auto px-6 py-3 container-narrow flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <img src="./assets/logo.svg" alt="logo" class="h-8 w-auto">
+        <span class="font-extrabold tracking-tight">Growly</span>
+      </div>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="#features" class="hover:text-sky-600">Features</a>
+        <a href="#work" class="hover:text-sky-600">Work</a>
+        <a href="#pricing" class="hover:text-sky-600">Pricing</a>
+        <a href="#contact" class="hover:text-sky-600">Contact</a>
+      </nav>
+      <a href="#contact" class="ml-4 inline-flex items-center px-4 py-2 rounded-xl bg-sky-600 text-white text-sm font-semibold shadow hover:bg-sky-700">Get Started</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="relative">
+    <div class="mx-auto px-6 py-20 container-narrow grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <h1 class="text-4xl md:text-5xl font-extrabold leading-tight">
+          Launch a clean, fast, <span class="text-sky-600">high‑converting</span> landing.
+        </h1>
+        <p class="mt-4 text-slate-600 text-lg">Perfect for startups, local businesses, and campaigns. Built with Tailwind, optimized for speed, and easy to customize.</p>
+        <form id="hero-form" class="mt-6 flex gap-2">
+          <input type="email" required placeholder="Enter your email" class="flex-1 rounded-xl border border-slate-300 px-4 py-3 outline-none focus:ring-2 focus:ring-sky-500">
+          <button class="rounded-xl bg-sky-600 text-white px-5 py-3 font-semibold hover:bg-sky-700">Get a free demo</button>
+        </form>
+        <div class="mt-4 text-xs text-slate-500">No spam. Unsubscribe anytime.</div>
+        <div class="mt-8 flex items-center gap-6 opacity-80">
+          <img class="h-10" src="https://dummyimage.com/120x40/111827/ffffff&text=Brand+A" alt="brand a">
+          <img class="h-10" src="https://dummyimage.com/120x40/111827/ffffff&text=Brand+B" alt="brand b">
+          <img class="h-10" src="https://dummyimage.com/120x40/111827/ffffff&text=Brand+C" alt="brand c">
+        </div>
+      </div>
+      <div class="relative">
+        <div class="relative aspect-[4/3] rounded-3xl border border-slate-200 shadow-xl overflow-hidden bg-white">
+          <div class="absolute inset-0 bg-gradient-to-tr from-sky-100 to-transparent"></div>
+          <div class="p-6 grid gap-4">
+            <div class="h-10 w-32 rounded-xl bg-slate-900"></div>
+            <div class="h-8 w-2/3 rounded-lg bg-slate-200"></div>
+            <div class="grid grid-cols-3 gap-4">
+              <div class="h-24 rounded-xl bg-slate-200"></div>
+              <div class="h-24 rounded-xl bg-slate-200"></div>
+              <div class="h-24 rounded-xl bg-slate-200"></div>
+            </div>
+            <div class="h-32 rounded-2xl bg-slate-100 border border-slate-200"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="py-20 border-t border-slate-200">
+    <div class="mx-auto px-6 container-narrow">
+      <h2 class="text-3xl font-extrabold">Why choose this template</h2>
+      <p class="mt-2 text-slate-600">Built for speed, clarity, and conversions.</p>
+      <div class="mt-10 grid md:grid-cols-3 gap-8">
+        <div class="p-6 rounded-2xl border bg-white shadow-sm">
+          <h3 class="font-bold">Lightning‑fast</h3>
+          <p class="mt-2 text-slate-600">No bloat, pure Tailwind CSS via CDN. 100/100 Lighthouse ready.</p>
+        </div>
+        <div class="p-6 rounded-2xl border bg-white shadow-sm">
+          <h3 class="font-bold">Responsive</h3>
+          <p class="mt-2 text-slate-600">Looks great on phones, tablets, and desktops.</p>
+        </div>
+        <div class="p-6 rounded-2xl border bg-white shadow-sm">
+          <h3 class="font-bold">Easy to edit</h3>
+          <p class="mt-2 text-slate-600">Semantic HTML with utility classes you can tweak in minutes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work/Showcase -->
+  <section id="work" class="py-20 bg-slate-50 border-y">
+    <div class="mx-auto px-6 container-narrow">
+      <h2 class="text-3xl font-extrabold">Recent work</h2>
+      <div class="mt-8 grid md:grid-cols-3 gap-6">
+        <div class="rounded-2xl overflow-hidden border bg-white">
+          <div class="aspect-video bg-slate-200"></div>
+          <div class="p-4">
+            <div class="font-semibold">E‑commerce hero revamp</div>
+            <p class="text-sm text-slate-600">+23% click‑through after redesign.</p>
+          </div>
+        </div>
+        <div class="rounded-2xl overflow-hidden border bg-white">
+          <div class="aspect-video bg-slate-200"></div>
+          <div class="p-4">
+            <div class="font-semibold">Local restaurant site</div>
+            <p class="text-sm text-slate-600">Fully responsive menu + booking.</p>
+          </div>
+        </div>
+        <div class="rounded-2xl overflow-hidden border bg-white">
+          <div class="aspect-video bg-slate-200"></div>
+          <div class="p-4">
+            <div class="font-semibold">SaaS landing speed‑up</div>
+            <p class="text-sm text-slate-600">Load time cut from 3.2s → 0.9s.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing" class="py-20">
+    <div class="mx-auto px-6 container-narrow text-center">
+      <h2 class="text-3xl font-extrabold">Simple, transparent pricing</h2>
+      <p class="mt-2 text-slate-600">Pick the plan that fits your project.</p>
+      <div class="mt-10 grid md:grid-cols-3 gap-6 text-left">
+        <div class="p-6 rounded-2xl border bg-white shadow-sm">
+          <div class="text-sm font-semibold text-slate-500">Starter</div>
+          <div class="mt-2 text-3xl font-extrabold">$299</div>
+          <ul class="mt-4 space-y-2 text-slate-600 text-sm">
+            <li>1-page landing</li>
+            <li>Mobile responsive</li>
+            <li>Basic contact form</li>
+            <li>2 revisions</li>
+          </ul>
+          <a href="#contact" class="mt-6 inline-flex px-4 py-2 rounded-xl bg-slate-900 text-white font-semibold">Choose Starter</a>
+        </div>
+        <div class="p-6 rounded-2xl border-2 border-sky-600 bg-white shadow-sm relative">
+          <div class="absolute -top-3 right-6 text-xs bg-sky-600 text-white px-2 py-1 rounded">Popular</div>
+          <div class="text-sm font-semibold text-slate-500">Growth</div>
+          <div class="mt-2 text-3xl font-extrabold">$399</div>
+          <ul class="mt-4 space-y-2 text-slate-600 text-sm">
+            <li>Everything in Starter</li>
+            <li>Lead capture (email/API)</li>
+            <li>Speed & SEO basics</li>
+            <li>3 revisions</li>
+          </ul>
+          <a href="#contact" class="mt-6 inline-flex px-4 py-2 rounded-xl bg-sky-600 text-white font-semibold">Choose Growth</a>
+        </div>
+        <div class="p-6 rounded-2xl border bg-white shadow-sm">
+          <div class="text-sm font-semibold text-slate-500">Pro</div>
+          <div class="mt-2 text-3xl font-extrabold">$549</div>
+          <ul class="mt-4 space-y-2 text-slate-600 text-sm">
+            <li>Custom sections</li>
+            <li>Animations + microcopy</li>
+            <li>Integrations (Mailchimp, etc.)</li>
+            <li>Priority support</li>
+          </ul>
+          <a href="#contact" class="mt-6 inline-flex px-4 py-2 rounded-xl bg-slate-900 text-white font-semibold">Choose Pro</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-20 bg-slate-900 text-slate-100">
+    <div class="mx-auto px-6 container-narrow grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h2 class="text-3xl font-extrabold">Ready to launch?</h2>
+        <p class="mt-2 text-slate-300">Tell me about your project. I'll reply within 24h.</p>
+      </div>
+      <form class="grid gap-3">
+        <input required placeholder="Your name" class="rounded-xl px-4 py-3 bg-slate-800 border border-slate-700 outline-none focus:ring-2 focus:ring-sky-500">
+        <input type="email" required placeholder="Email" class="rounded-xl px-4 py-3 bg-slate-800 border border-slate-700 outline-none focus:ring-2 focus:ring-sky-500">
+        <textarea rows="4" placeholder="Project details" class="rounded-xl px-4 py-3 bg-slate-800 border border-slate-700 outline-none focus:ring-2 focus:ring-sky-500"></textarea>
+        <button class="rounded-xl bg-sky-600 text-white font-semibold px-5 py-3 hover:bg-sky-500">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="py-8 text-center text-sm text-slate-500">
+    © <span id="year"></span> arteaga.codehub — All rights reserved.
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+</body>
+</html>
